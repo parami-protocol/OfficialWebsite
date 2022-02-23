@@ -1,0 +1,38 @@
+.cardContainer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba(36,42,53,1);
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transform: translateZ(0);
+    width: 100%;
+
+    .card {
+        border: unset;
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+
+        .title {
+            color: #fff;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .icon {
+            font-size: 64px;
+            margin-bottom: 2rem;
+        }
+
+        &:hover {
+            background-color: rgba(24,26,34,1);
+            transform: scale(1.05);
+            transition-duration: .15s;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(.4,0,.2,1);
+        }
+    }
+}
