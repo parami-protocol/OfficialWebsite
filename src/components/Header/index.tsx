@@ -136,11 +136,21 @@ const Header: React.FC<{
                     <li
                         className={style.tabItem}
                         onClick={() => {
+                            window.location.href = 'https://astro.parami.io';
+                        }}
+                    >
+                        {intl.formatMessage({
+                            id: 'menu.astro',
+                        })}
+                    </li>
+                    <li
+                        className={style.tabItem}
+                        onClick={() => {
                             window.location.href = 'https://app.parami.io';
                         }}
                     >
                         {intl.formatMessage({
-                            id: 'common.app',
+                            id: 'menu.app',
                         })}
                     </li>
                 </ul>
