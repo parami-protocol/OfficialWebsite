@@ -4,7 +4,7 @@ import Banner from './components/banner';
 import Cards from './components/cards';
 import Signup from './components/signup';
 
-const Crowdload: React.FC = () => {
+const Crowdloan: React.FC = () => {
     return (
         <>
             <div className={styles.mainContainer}>
@@ -16,4 +16,4 @@ const Crowdload: React.FC = () => {
     )
 }
 
-export default Crowdload;
+export default Crowdloan;

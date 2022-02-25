@@ -27,7 +27,7 @@ const Cards: React.FC = () => {
                                 })}
                             </Title>
                             {intl.formatMessage({
-                                id: 'crowdload.whatIsCrowdloan.content',
+                                id: 'crowdloan.whatIsCrowdloan.content',
                                 defaultMessage: 'A way for the Polkadot community to support projects that wish to deploy to the Polkadot network.',
                             })}
                         </Card>
@@ -46,7 +46,7 @@ const Cards: React.FC = () => {
                                 })}
                             </Title>
                             {intl.formatMessage({
-                                id: 'crowdload.whatIsParami.content',
+                                id: 'crowdloan.whatIsParami.content',
                                 defaultMessage: 'Parami Protocol proposed an AD 3.0 paradigm powered by blockchain for Web 3.0. It provides a protocolstack for building a user-centric, tokenized advertising economy.',
                             })}
                         </Card>
@@ -65,7 +65,7 @@ const Cards: React.FC = () => {
                                 })}
                             </Title>
                             {intl.formatMessage({
-                                id: 'crowdload.whatIsParami.content',
+                                id: 'crowdloan.whatIsParami.content',
                                 defaultMessage: 'The Parami Foundation hosted a crowdloan for the Parami network in January 2022. Find out more about how the event was structured.',
                             })}
                         </Card>

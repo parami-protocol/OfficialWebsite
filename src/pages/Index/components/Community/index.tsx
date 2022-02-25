@@ -50,6 +50,9 @@ const Community: React.FC = () => {
                         >
                             <SiTelegram
                                 className={style.icon}
+                                onClick={() => {
+                                    window.open('https://t.me/ParamiProtocolEN', '_blank')
+                                }}
                             />
                             <Title
                                 level={3}
@@ -70,6 +73,9 @@ const Community: React.FC = () => {
                         >
                             <SiTwitter
                                 className={style.icon}
+                                onClick={() => {
+                                    window.open('https://twitter.com/paramiprotocol', '_blank')
+                                }}
                             />
                             <Title
                                 level={3}
@@ -90,6 +96,9 @@ const Community: React.FC = () => {
                         >
                             <SiDiscord
                                 className={style.icon}
+                                onClick={() => {
+                                    window.open('https://discord.com/invite/bxFuekgvYJ', '_blank')
+                                }}
                             />
                             <Title
                                 level={3}

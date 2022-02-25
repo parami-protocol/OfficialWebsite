@@ -1,6 +1,6 @@
 export default {
   'menu.index': 'Index',
-  'menu.crowdloan': 'Crowdload',
+  'menu.crowdloan': 'Crowdloan',
   'menu.astro': 'Astro',
   'menu.app': 'APP',
 };

@@ -36,19 +36,19 @@ export default () => {
       <div className={styles.right}>
         <div className={styles.sns}>
           <SiTwitter
-            onClick={() => { window.open('https://twitter.com/ParamiProtocol') }}
+            onClick={() => { window.open('https://twitter.com/ParamiProtocol', '_blank') }}
           />
           <SiMedium
-            onClick={() => { window.open('https://paramiprotocol.medium.com/') }}
+            onClick={() => { window.open('https://paramiprotocol.medium.com/', '_blank') }}
           />
           <SiDiscord
-            onClick={() => { window.open('https://discord.gg/bxFuekgvYJ') }}
+            onClick={() => { window.open('https://discord.com/invite/bxFuekgvYJ', '_blank') }}
           />
           <HiMail
-            onClick={() => { window.open('mailto:info@parami.io') }}
+            onClick={() => { window.open('mailto:info@parami.io', '_blank') }}
           />
           <SiTelegram
-            onClick={() => { window.open('https://t.me/ParamiProtocolEN') }}
+            onClick={() => { window.open('https://t.me/ParamiProtocolEN', '_blank') }}
           />
         </div>
       </div>

@@ -19,13 +19,13 @@ const Banner: React.FC = () => {
                     <div className={style.wrapRight}>
                         <div className={style.totalDOT}>
                             {intl.formatMessage({
-                                id: 'crowdload.totalDOT.wrap',
+                                id: 'crowdloan.totalDOT.wrap',
                                 defaultMessage: 'Coming Soon',
                             })}
                         </div>
                         {/* <div className={style.totalDOT}>
                             {intl.formatMessage({
-                                id: 'crowdload.totalDOT',
+                                id: 'crowdloan.totalDOT',
                                 defaultMessage: '{total} Total DOT Received',
                             }, {
                                 total: (<span className={style.highLight}>0</span>)
@@ -33,7 +33,7 @@ const Banner: React.FC = () => {
                         </div>
                         <p>
                             {intl.formatMessage({
-                                id: 'crowdload.totalDOT.wrap',
+                                id: 'crowdloan.totalDOT.wrap',
                                 defaultMessage: 'The Parami crowdloan will coming soon.',
                             })}
                         </p> */}
