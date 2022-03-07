@@ -1,14 +1,20 @@
 import React from 'react';
-import styles from '@/style/common.less';
 import { Svga } from 'react-svga';
 import style from './style.less';
 
-const Loading: React.FC = () => {
-
+const Loading: React.FC<{
+    loading?: boolean;
+}> = ({ loading }) => {
     return (
         <>
-            <div className={styles.mainContainer}>
-                <div className={styles.pageContainer}>
+            <div
+                className={style.mainContainer}
+                style={{
+                    opacity: loading && loading ? 1 : 0,
+                    zIndex: loading && loading ? 999 : -100,
+                }}
+            >
+                <div className={style.pageContainer}>
                     <Svga
                         src={'/images/parami.svga'}
                         className={style.loadingContainer}
