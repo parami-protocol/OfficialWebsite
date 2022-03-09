@@ -65,7 +65,7 @@ const Header: React.FC<{
                             <li
                                 className={style.tabItem}
                                 onClick={() => {
-                                    window.location.href = 'https://astro.parami.io';
+                                    window.open('https://astro.parami.io', '_blank');
                                 }}
                             >
                                 {intl.formatMessage({
@@ -75,7 +75,17 @@ const Header: React.FC<{
                             <li
                                 className={style.tabItem}
                                 onClick={() => {
-                                    window.location.href = 'https://app.parami.io';
+                                    window.open('https://parami.notion.site/Careers-Parami-a162f4e6f3f2422cad00d5e8ece4be43', '_blank');
+                                }}
+                            >
+                                {intl.formatMessage({
+                                    id: 'menu.career',
+                                })}
+                            </li>
+                            <li
+                                className={style.tabItem}
+                                onClick={() => {
+                                    window.open('https://app.parami.io', '_blank');
                                 }}
                             >
                                 {intl.formatMessage({
@@ -132,11 +142,12 @@ const Header: React.FC<{
                                 </li>
                             )
                         }
+                        return;
                     })}
                     <li
                         className={style.tabItem}
                         onClick={() => {
-                            window.location.href = 'https://astro.parami.io';
+                            window.open('https://astro.parami.io', '_blank');
                         }}
                     >
                         {intl.formatMessage({
@@ -146,7 +157,17 @@ const Header: React.FC<{
                     <li
                         className={style.tabItem}
                         onClick={() => {
-                            window.location.href = 'https://app.parami.io';
+                            window.open('https://parami.notion.site/Careers-Parami-a162f4e6f3f2422cad00d5e8ece4be43', '_blank');
+                        }}
+                    >
+                        {intl.formatMessage({
+                            id: 'menu.career',
+                        })}
+                    </li>
+                    <li
+                        className={style.tabItem}
+                        onClick={() => {
+                            window.open('https://app.parami.io', '_blank');
                         }}
                     >
                         {intl.formatMessage({

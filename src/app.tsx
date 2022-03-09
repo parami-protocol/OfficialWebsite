@@ -1,5 +1,6 @@
 import type { Settings as LayoutSettings } from '@ant-design/pro-layout';
 import type { RequestConfig, RunTimeLayoutConfig } from 'umi';
+import ReactGA from 'react-ga';
 import RightContent from '@/components/RightContent';
 import Footer from '@/components/Footer';
 import defaultSettings from '../config/defaultSettings';
@@ -18,6 +19,9 @@ export async function getInitialState(): Promise<{
   settings?: Partial<LayoutSettings>;
   loading?: boolean;
 }> {
+  ReactGA.initialize('G-1TNQLBFGEE');
+  console.log("\n %c Made with ❤️ by Parami %c 一緒に、世界を変えよう！ \n\n", "color: #ff5b00; background: #fff; padding:5px 0;", "background: #ff5b00; padding:5px 0;");
+
   return {
     collapsed: false,
     settings: defaultSettings,

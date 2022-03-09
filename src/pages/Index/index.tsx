@@ -25,7 +25,7 @@ const Index: React.FC = () => {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
-        }, 5000);
+        }, 4000);
     }, []);
 
     return (
