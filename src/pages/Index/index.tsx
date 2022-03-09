@@ -25,7 +25,7 @@ const Index: React.FC = () => {
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
-        }, 4000);
+        }, 3500);
     }, []);
 
     return (
@@ -44,9 +44,9 @@ const Index: React.FC = () => {
                             position: 'absolute',
                         }}
                     >
-                        <Cubes />
+                        {/* <Cubes />
                         <Lights />
-                        <Environment />
+                        <Environment /> */}
                     </Canvas>
                 </div>
                 <Product />

@@ -47,7 +47,7 @@ const Cards: React.FC = () => {
                             </Title>
                             {intl.formatMessage({
                                 id: 'crowdloan.whatIsParami.content',
-                                defaultMessage: 'Parami Protocol proposed an AD 3.0 paradigm powered by blockchain for Web 3.0. It provides a protocolstack for building a user-centric, tokenized advertising economy.',
+                                defaultMessage: 'Parami Protocol proposes an AD 3.0 paradigm powered by blockchain technology for Web 3. It provides a protocol stack for building a user-centric, tokenized advertising economy.',
                             })}
                         </Card>
                     </Col>

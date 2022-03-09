@@ -28,7 +28,7 @@ const Overview: React.FC = () => {
                 <div className={style.content}>
                     {intl.formatMessage({
                         id: 'index.overview.content',
-                        defaultMessage: 'Param Protocol proposes an AD3.0 paradigm powered by blockchain technology for Web 3.0. It provides a protocol stack for building a user-centric, tokenized advertising economy.'
+                        defaultMessage: 'Parami Protocol proposes an AD3.0 paradigm powered by blockchain technology for Web 3. It provides a protocol stack for building a user-centric, tokenized advertising economy.'
                     })}
                 </div>
             </div>

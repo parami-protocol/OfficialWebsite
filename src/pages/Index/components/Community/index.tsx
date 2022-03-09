@@ -37,7 +37,7 @@ const Community: React.FC = () => {
                 <p className={style.content}>
                     {intl.formatMessage({
                         id: 'index.community.content',
-                        defaultMessage: 'Parami Protocol is born from {substrate} and backed by the most hard core and wide spread {defi}.',
+                        defaultMessage: 'Parami Protocol is born from the {substrate} and backed by the most hardcore and widespread {defi}.',
                     }, {
                         substrate: <span>Substrate Community</span>,
                         defi: <span>DeFi Community</span>

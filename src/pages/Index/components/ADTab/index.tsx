@@ -41,7 +41,7 @@ const ADTab: React.FC = () => {
                             <div className={style.tabContent}>
                                 {intl.formatMessage({
                                     id: 'index.adtab.item1.content',
-                                    defaultMessage: 'The AD Privacy Layer provides a unique personal crypto advertising preference (PCAP) profile attached to each users DID, which contains user advertising privacy management services. The PCAP profile is designed not only for users to receive payment, but also allows managing user preference data. The preserved data can be used but can not be seen, allowing the user to maintain full ownership over their data.',
+                                    defaultMessage: 'The AD Privacy Layer provides a unique personal crypto advertising preference (PCAP) profile attached to each users DID containing user advertising privacy management services. The PCAP profile is designed to allow users to receive payments and manage their user preference data. The preserved data can be used but can not be seen, allowing the user to maintain full ownership over their data.',
                                 })}
                             </div>
                         )}
@@ -49,7 +49,7 @@ const ADTab: React.FC = () => {
                             <div className={style.tabContent}>
                                 {intl.formatMessage({
                                     id: 'index.adtab.item2.content',
-                                    defaultMessage: 'The decentralized oracle is designed for collecting data from the conventional Internet. It is built as part of the Substrate Offchain Worker(OCW) and specifically works for Ad verification with low fees and fast response times.',
+                                    defaultMessage: 'The decentralized oracle is designed for collecting data from the conventional Internet. It is built as part of the Substrate Offchain Worker(OCW) and specifically works for AD verification with low fees and fast response times.',
                                 })}
                             </div>
                         )}

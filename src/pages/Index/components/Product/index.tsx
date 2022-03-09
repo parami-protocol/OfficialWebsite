@@ -32,7 +32,7 @@ const Product: React.FC = () => {
                             </Title>
                             {intl.formatMessage({
                                 id: 'index.identityAggregator.content',
-                                defaultMessage: 'Aggregates identity and the related information from different blockchain and social platforms.',
+                                defaultMessage: 'Manage identify information calculation and increase value, including tools and SDK.',
                             })}
                         </Card>
                     </Col>
@@ -76,7 +76,7 @@ const Product: React.FC = () => {
                             </Title>
                             {intl.formatMessage({
                                 id: 'index.identityEngine.content',
-                                defaultMessage: 'Powered by Substrate and Polkadot, as a parachain to ensure sustainability and scalability.',
+                                defaultMessage: 'Parachain powered by Substrate and Polkadot ensuring sustainability and scalability.',
                             })}
                         </Card>
                     </Col>
